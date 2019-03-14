@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/interface-parent/pom.xml" />
         <option value="$PROJECT_DIR$/interface-parent/MessageConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/DesignPatternParent/pom.xml" />
       </list>
     </option>
   </component>
