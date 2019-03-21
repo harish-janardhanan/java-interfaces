@@ -28,6 +28,8 @@
 <modules>
     <module>interface-parent</module>
     <module>DesignPatternParent</module>
+    <module>JDBCSample</module>
+    <module>codePractice</module>
 </modules>
     <repositories>
         <repository>
