@@ -28,8 +28,6 @@ class HackerRankPracticeTest {
         int[] input = {2,4,6,8,3};
         int[] expected = {6,8,3,2,4};
         int[] actual = hackerRankPractice.rotate(input, 2);
-
-
         TestUtils.assertIntegerArrays(expected,actual);
 
     }
@@ -56,6 +54,15 @@ class HackerRankPracticeTest {
         BirthdayBarTestData birthdayBarTestData
                 = new BirthdayBarTestData(chocolateBars,4,1);
         TestUtils.testBirthdayBars(birthdayBarTestData,1);
+    }
+
+    @Test
+    void dataTypeTest(){
+        int baseInteger = 4;
+        double baseDouble = 4.0;
+        String baseString = "HackerRank";
+
+        HackerRankPractice.addDataTypes();
     }
 
 }

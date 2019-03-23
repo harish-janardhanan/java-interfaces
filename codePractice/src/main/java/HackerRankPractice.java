@@ -161,6 +161,10 @@ public class HackerRankPractice {
 
     }
 
+    public static void addDataTypes(){
+
+    }
+
     static int birthday(int[] ints, int d, int m) {
         List<Integer> s = new ArrayList<>();
         for(int i=0 ; i< ints.length; ++i ){
