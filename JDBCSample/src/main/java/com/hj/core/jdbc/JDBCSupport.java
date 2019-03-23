@@ -18,9 +18,10 @@ public class JDBCSupport {
 
     public Connection getConnection (){
         Connection connection = createConnection();
+        return  connection;
     }
 
     private Connection createConnection(){
-        
+        return getConnection();
     }
 }
