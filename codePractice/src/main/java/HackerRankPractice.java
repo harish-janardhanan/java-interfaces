@@ -161,6 +161,29 @@ public class HackerRankPractice {
 
     }
 
+    public static void addDataTypes(){
+
+
+        }
+
+    static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
+        Integer alicePoints = 0;
+        Integer bobPoints = 0;
+        List<Integer>  pointsList = new ArrayList<>();
+
+
+        for (int i = 0 ; i < a.size(); ++i){
+            if (a.get(i) > b.get(i))
+                alicePoints++;
+            else if (a.get(i) < b.get(i))
+                bobPoints++;
+        }
+
+        pointsList.add(alicePoints);
+        pointsList.add(bobPoints);
+        return pointsList;
+    }
+
     static int birthday(int[] ints, int d, int m) {
         List<Integer> s = new ArrayList<>();
         for(int i=0 ; i< ints.length; ++i ){
