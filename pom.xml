@@ -28,6 +28,8 @@
 <modules>
     <module>interface-parent</module>
     <module>DesignPatternParent</module>
+    <module>data-structures</module>
+    <module>practice-problems</module>
 </modules>
     <repositories>
         <repository>
