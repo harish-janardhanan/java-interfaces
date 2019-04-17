@@ -9,13 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>data-structures</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>linked-list</module>
-        <module>hashmap</module>
-        <module>binary-tree</module>
-    </modules>
+    <artifactId>threading-practice</artifactId>
 
 
 </project>

@@ -1,3 +1,7 @@
+package client;
+
+import list.LinkedList;
+
 public class Client {
 
 

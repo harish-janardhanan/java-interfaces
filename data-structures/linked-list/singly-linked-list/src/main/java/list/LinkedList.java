@@ -1,7 +1,9 @@
-public class LinkedList<T> {
-    Node head;
+package list;
 
-    static class Node<T> {
+public class LinkedList<T> {
+    public Node head;
+
+    public static class Node<T> {
         T data;
         public Node next;
 

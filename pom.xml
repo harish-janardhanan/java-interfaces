@@ -30,6 +30,7 @@
     <module>DesignPatternParent</module>
     <module>data-structures</module>
     <module>practice-problems</module>
+    <module>threading-practice</module>
 </modules>
     <repositories>
         <repository>
