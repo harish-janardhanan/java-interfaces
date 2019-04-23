@@ -19,7 +19,7 @@ public class CostOfIceCream {
 
 
         for (int i = 1; i <= costMap.size() ; ++i ){
-                if (money - costMap.get(i) == 0)
+                if (money - costMap.get(i) == 0);
             }
 
 
